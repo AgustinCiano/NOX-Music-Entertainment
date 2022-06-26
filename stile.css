@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    margin: auto;
+    width: 1080px;
+    /* background-color: black; */
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* PLACA INDEX */
+
+.placaIndex{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(142, 1, 255);
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.placaIndex img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;    
+}
+
+.placaIndex h1{
+    color: white;
+}
+
+
+
+.botonEntrar{
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+.botonEntrar h2{
+    color: black;
+}
+
+
+nav a{
+    color: white;
+}
+
+
+nav a:hover{
+    color: aqua; 
+    transition: 500ms;
+
+}
+
+li{
+    list-style: none;
+}
+nav ol{
+    margin-top: 1%;
+    background-color: rgb(142, 1, 255);
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoHeader{
+    max-width: 80px;
+    border-radius: 100%;
+    margin-top: 10%;
+}
+
+
+
+.solapaEspec{
+    background-color: rgb(142, 1, 255);
+    margin-left: 18%;
+    width: 200px;
+    height: 20px;
+    
+}
+
+.solapaArtistas{
+    background-color: rgb(142, 1, 255);
+    margin-left: 39%;
+    width: 150px;
+    height: 20px;
+    
+}
+
+/* ESPECTACULOS */
+
+
+
+.espectaculosSection{
+    background-color: rgb(142, 1, 255);
+    border-radius: 10px;
+    width: 900px;
+    height: 1080px;
+    margin: auto;
+    
+
+}
+
+h2{
+    margin: 2%;
+}
+
+h3{
+    margin: 2%;
+}
+
+.espectaculo{
+    max-width: 300px;
+    margin: 3%;
+}
+
+.espectaculo a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.espectaculosSection ol{   
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+
+.espectaculosSection ol li img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+
+
+
+/* ARTISTAS */
+
+
+
+
+.artistasSection{
+    background-color: rgb(142, 1, 255);
+    border-radius: 10px;
+    width: 900px;
+    height: 1080px;
+    margin: auto;    
+
+}
+
+.artistasSection img{
+    border-radius: 100%;
+    width: 100px;
+    margin: 5%;
+}
+
+.artistasSection ol{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.artistasSection ol li a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.cardArtista{
+    border: 5px solid white;
+    width: 300px;
+    border-radius: 20px;
+    margin: 5%;
+}
+
+.cardArtista:hover{
+    
+    border: 5px solid rgb(178, 99, 239);
+    transition: 500ms;
+}
